@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26">
+    <Prefix name="" IRI="http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#CardinalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CeramicMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompositeMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConceptualQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContinuosProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuttingParameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CuttingTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpertiseLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FixturingOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmaterialEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineTool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachiningOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachiningProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetallicMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservedScore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolymericMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Score"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UoM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Workpiece"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fromUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCardinalProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContinuosProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConversion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExpertiseLevel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGeometry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaterial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasObservedScore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSequence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUoM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMadeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#operatesMachine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performedOnWorkpiece"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performedWithTool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precededBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresMachine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedInOperation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCategoricalScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCategoricalValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConversionFactor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumericalScore"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumericalValue"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CardinalProperty"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CeramicMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompositeMaterial"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasMaterial"/>
+            <Class IRI="#Material"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConceptualQuality"/>
+        <Class IRI="#ImmaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContinuosProperty"/>
+        <Class IRI="#Property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conversion"/>
+        <Class IRI="#ConceptualQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conversion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasConversionFactor"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuttingParameter"/>
+        <Class IRI="#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuttingTool"/>
+        <Class IRI="#MechanicalSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CuttingTool"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedInOperation"/>
+            <Class IRI="#MachiningOperation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evaluation"/>
+        <Class IRI="#Score"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpertiseLevel"/>
+        <Class IRI="#ConceptualQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FixturingOperation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FixturingOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performedOnWorkpiece"/>
+            <Class IRI="#Workpiece"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometry"/>
+        <Class IRI="#PhysicalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanAgent"/>
+        <Class IRI="#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#definesEvaluation"/>
+            <Class IRI="#Evaluation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasExpertiseLevel"/>
+            <Class IRI="#ExpertiseLevel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRole"/>
+            <Class IRI="#Role"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#operatesMachine"/>
+            <Class IRI="#MachineTool"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialEntity"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineTool"/>
+        <Class IRI="#MechanicalSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachiningOperation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachiningOperation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParameter"/>
+            <Class IRI="#CuttingParameter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachiningOperation"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#performedWithTool"/>
+            <Class IRI="#CuttingTool"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachiningProcess"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachiningProcess"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasObservedScore"/>
+            <Class IRI="#ObservedScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachiningProcess"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requiresMachine"/>
+            <Class IRI="#MachineTool"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Material"/>
+        <Class IRI="#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Material"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasContinuosProperty"/>
+            <Class IRI="#ContinuosProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialEntity"/>
+        <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalPart"/>
+        <Class IRI="#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalPart"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCardinalProperty"/>
+            <Class IRI="#CardinalProperty"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalPart"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGeometry"/>
+            <Class IRI="#Geometry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalPart"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isMadeOf"/>
+            <Class IRI="#Material"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalSystem"/>
+        <Class IRI="#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalSystem"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#hasPart"/>
+            <ObjectUnionOf>
+                <Class IRI="#MechanicalPart"/>
+                <Class IRI="#MechanicalSystem"/>
+            </ObjectUnionOf>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetallicMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservedScore"/>
+        <Class IRI="#Score"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operation"/>
+        <Class IRI="#ImmaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precededBy"/>
+            <Class IRI="#Operation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parameter"/>
+        <Class IRI="#PhysicalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalQuality"/>
+        <Class IRI="#ImmaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalQuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasUoM"/>
+            <Class IRI="#UoM"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalQuality"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasCategoricalValue"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalQuality"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNumericalValue"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolymericMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#ImmaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasSequence"/>
+            <Class IRI="#Sequence"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Property"/>
+        <Class IRI="#PhysicalQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <Class IRI="#ConceptualQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Score"/>
+        <Class IRI="#ConceptualQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Score"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasCategoricalScore"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Score"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNumericalScore"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sequence"/>
+        <Class IRI="#ImmaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sequence"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOperation"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UoM"/>
+        <Class IRI="#ConceptualQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UoM"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#fromUnit"/>
+            <Class IRI="#UoM"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UoM"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConversion"/>
+            <Class IRI="#Conversion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UoM"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#toUnit"/>
+            <Class IRI="#UoM"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Workpiece"/>
+        <Class IRI="#MechanicalPart"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMadeOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCategoricalScore"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

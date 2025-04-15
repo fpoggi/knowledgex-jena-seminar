@@ -1,0 +1,434 @@
+@prefix : <http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26> .
+
+<http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#definesEvaluation
+:definesEvaluation rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#fromUnit
+:fromUnit rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasCardinalProperty
+:hasCardinalProperty rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasContinuosProperty
+:hasContinuosProperty rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasConversion
+:hasConversion rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasExpertiseLevel
+:hasExpertiseLevel rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasGeometry
+:hasGeometry rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasMaterial
+:hasMaterial rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasObservedScore
+:hasObservedScore rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasOperation
+:hasOperation rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasParameter
+:hasParameter rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasPart
+:hasPart rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasRole
+:hasRole rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasSequence
+:hasSequence rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasUoM
+:hasUoM rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#isMadeOf
+:isMadeOf rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#operatesMachine
+:operatesMachine rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#performedOnWorkpiece
+:performedOnWorkpiece rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#performedWithTool
+:performedWithTool rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#precededBy
+:precededBy rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#requiresMachine
+:requiresMachine rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#toUnit
+:toUnit rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#usedInOperation
+:usedInOperation rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasCategoricalScore
+:hasCategoricalScore rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasCategoricalValue
+:hasCategoricalValue rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasConversionFactor
+:hasConversionFactor rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasNumericalScore
+:hasNumericalScore rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#hasNumericalValue
+:hasNumericalValue rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#CardinalProperty
+:CardinalProperty rdf:type owl:Class ;
+                  rdfs:subClassOf :Property .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#CeramicMaterial
+:CeramicMaterial rdf:type owl:Class ;
+                 rdfs:subClassOf :Material .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#CompositeMaterial
+:CompositeMaterial rdf:type owl:Class ;
+                   rdfs:subClassOf :Material ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMaterial ;
+                                     owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :Material
+                                   ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#ConceptualQuality
+:ConceptualQuality rdf:type owl:Class ;
+                   rdfs:subClassOf :ImmaterialEntity .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#ContinuosProperty
+:ContinuosProperty rdf:type owl:Class ;
+                   rdfs:subClassOf :Property .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Conversion
+:Conversion rdf:type owl:Class ;
+            rdfs:subClassOf :ConceptualQuality ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasConversionFactor ;
+                              owl:someValuesFrom xsd:decimal
+                            ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#CuttingParameter
+:CuttingParameter rdf:type owl:Class ;
+                  rdfs:subClassOf :Parameter .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#CuttingTool
+:CuttingTool rdf:type owl:Class ;
+             rdfs:subClassOf :MechanicalSystem ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :usedInOperation ;
+                               owl:someValuesFrom :MachiningOperation
+                             ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Entity
+:Entity rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Evaluation
+:Evaluation rdf:type owl:Class ;
+            rdfs:subClassOf :Score .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#ExpertiseLevel
+:ExpertiseLevel rdf:type owl:Class ;
+                rdfs:subClassOf :ConceptualQuality .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#FixturingOperation
+:FixturingOperation rdf:type owl:Class ;
+                    rdfs:subClassOf :Operation ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :performedOnWorkpiece ;
+                                      owl:someValuesFrom :Workpiece
+                                    ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Geometry
+:Geometry rdf:type owl:Class ;
+          rdfs:subClassOf :PhysicalQuality .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#HumanAgent
+:HumanAgent rdf:type owl:Class ;
+            rdfs:subClassOf :MaterialEntity ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :definesEvaluation ;
+                              owl:someValuesFrom :Evaluation
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasExpertiseLevel ;
+                              owl:someValuesFrom :ExpertiseLevel
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasRole ;
+                              owl:someValuesFrom :Role
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :operatesMachine ;
+                              owl:someValuesFrom :MachineTool
+                            ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#ImmaterialEntity
+:ImmaterialEntity rdf:type owl:Class ;
+                  rdfs:subClassOf :Entity .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#MachineTool
+:MachineTool rdf:type owl:Class ;
+             rdfs:subClassOf :MechanicalSystem .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#MachiningOperation
+:MachiningOperation rdf:type owl:Class ;
+                    rdfs:subClassOf :Operation ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :hasParameter ;
+                                      owl:someValuesFrom :CuttingParameter
+                                    ] ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :performedWithTool ;
+                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass :CuttingTool
+                                    ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#MachiningProcess
+:MachiningProcess rdf:type owl:Class ;
+                  rdfs:subClassOf :Process ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasObservedScore ;
+                                    owl:someValuesFrom :ObservedScore
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :requiresMachine ;
+                                    owl:someValuesFrom :MachineTool
+                                  ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Material
+:Material rdf:type owl:Class ;
+          rdfs:subClassOf :MaterialEntity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasContinuosProperty ;
+                            owl:someValuesFrom :ContinuosProperty
+                          ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#MaterialEntity
+:MaterialEntity rdf:type owl:Class ;
+                rdfs:subClassOf :Entity .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#MechanicalPart
+:MechanicalPart rdf:type owl:Class ;
+                rdfs:subClassOf :MaterialEntity ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasCardinalProperty ;
+                                  owl:someValuesFrom :CardinalProperty
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :hasGeometry ;
+                                  owl:someValuesFrom :Geometry
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :isMadeOf ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onClass :Material
+                                ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#MechanicalSystem
+:MechanicalSystem rdf:type owl:Class ;
+                  rdfs:subClassOf :MaterialEntity ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :hasPart ;
+                                    owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                    owl:onClass [ rdf:type owl:Class ;
+                                                  owl:unionOf ( :MechanicalPart
+                                                                :MechanicalSystem
+                                                              )
+                                                ]
+                                  ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#MetallicMaterial
+:MetallicMaterial rdf:type owl:Class ;
+                  rdfs:subClassOf :Material .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#ObservedScore
+:ObservedScore rdf:type owl:Class ;
+               rdfs:subClassOf :Score .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Operation
+:Operation rdf:type owl:Class ;
+           rdfs:subClassOf :ImmaterialEntity ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :precededBy ;
+                             owl:someValuesFrom :Operation
+                           ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Parameter
+:Parameter rdf:type owl:Class ;
+           rdfs:subClassOf :PhysicalQuality .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#PhysicalQuality
+:PhysicalQuality rdf:type owl:Class ;
+                 rdfs:subClassOf :ImmaterialEntity ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasUoM ;
+                                   owl:someValuesFrom :UoM
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasCategoricalValue ;
+                                   owl:someValuesFrom xsd:string
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasNumericalValue ;
+                                   owl:someValuesFrom xsd:decimal
+                                 ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#PolymericMaterial
+:PolymericMaterial rdf:type owl:Class ;
+                   rdfs:subClassOf :Material .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Process
+:Process rdf:type owl:Class ;
+         rdfs:subClassOf :ImmaterialEntity ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasSequence ;
+                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :Sequence
+                         ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Property
+:Property rdf:type owl:Class ;
+          rdfs:subClassOf :PhysicalQuality .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Role
+:Role rdf:type owl:Class ;
+      rdfs:subClassOf :ConceptualQuality .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Score
+:Score rdf:type owl:Class ;
+       rdfs:subClassOf :ConceptualQuality ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasCategoricalScore ;
+                         owl:someValuesFrom xsd:string
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasNumericalScore ;
+                         owl:someValuesFrom xsd:decimal
+                       ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Sequence
+:Sequence rdf:type owl:Class ;
+          rdfs:subClassOf :ImmaterialEntity ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasOperation ;
+                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Operation
+                          ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#UoM
+:UoM rdf:type owl:Class ;
+     rdfs:subClassOf :ConceptualQuality ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :fromUnit ;
+                       owl:someValuesFrom :UoM
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasConversion ;
+                       owl:someValuesFrom :Conversion
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :toUnit ;
+                       owl:someValuesFrom :UoM
+                     ] .
+
+
+###  http://www.semanticweb.org/alessandro.moramarco/ontologies/2025/1/untitled-ontology-26#Workpiece
+:Workpiece rdf:type owl:Class ;
+           rdfs:subClassOf :MechanicalPart .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
